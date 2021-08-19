@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/DialogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter new name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/dialogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter new description"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/foodDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/dialogHeader2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter new price"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Foodprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</LinearLayout>
